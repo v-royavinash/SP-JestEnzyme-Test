@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b4515053-f529-483f-b4f0-c5cc1397b2c8",
+  "alias": "HomeWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart","TeamsPersonalApp","TeamsTab","SharePointFullPage"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": {
+      "default": "Other"
+    },
+    "title": {
+      "default": "Jest Enzyme Test Project"
+    },
+    "description": {
+      "default": "Jest Enzyme Test Project"
+    },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Jest Enzyme Test Project"
+    }
+  }]
+}
